@@ -36,9 +36,7 @@ describe('objects', () => {
   })
 
   describe('removeFromPlaylist(playlist, artistName)', () => {
-    it('removes `artistName` from `playlist`', () => {
-      removeFromPlaylist(playlist, 'Slowdive')
-
+    i
       expect(playlist).
         to.contain.all.keys({'My Bloody Valentine': 'Sometimes', 'Phil Ochs': "Here's to the State of Mississippi"})
 
