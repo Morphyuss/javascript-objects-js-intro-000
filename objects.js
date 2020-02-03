@@ -12,5 +12,3 @@ function removeFromPlaylist(playlist, name) {
     return playlist
     
 }
-
-   
