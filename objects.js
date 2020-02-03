@@ -5,3 +5,7 @@ function updatePlaylist(playlist, name, song) {
   return playlist({},playlist, {[name]: song})
   
 }
+
+function updatePlaylist(playlist, name, song) {
+  
+}
